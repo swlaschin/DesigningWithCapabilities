@@ -54,7 +54,7 @@
   </Choose>
   <Import Project="$(FSharpTargetsPath)" />
   <ItemGroup>
-    <Content Include="README.txt" />
+    <None Include="README.md" />
     <None Include="CapabilitiesAsFunctions.fsx" />
     <Compile Include="TicTacToeCore.fs" />
     <Compile Include="RbacApi.fs" />
